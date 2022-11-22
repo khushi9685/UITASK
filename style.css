@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@100;400;700&display=swap');
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    background-color: gainsboro;
+
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 15%;
+    background-color: gainsboro;
+ 
+  
+     
+    
+}
+.navbar h5{
+    margin-left: 0%;
+   
+    color: #daa520;
+}
+.navbar h4 h1{
+   padding: 10px; 
+   
+}
+
+.nav-section{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    padding: 20px 20px;
+    background-color: gainsboro;
+    
+   
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    list-style: none;
+    
+   
+   
+}
+.nav-content li{
+    padding: 15px;
+    color: black;
+    font-weight: 600;
+}
+.nav-section button{
+    margin-left: 40%;
+    background-color: black;
+    color: white;
+    width: 12%;
+   margin-right: 15px;
+
+}
+
+
+
+.main-section{
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.text-section{
+    width: 50%;
+    padding: 80px 80px ;
+    display: block;
+    justify-content: center;
+    justify-content: space-between;
+}
+.text-section h1{
+  
+    font-size: 60px;
+
+}
+.text-section p{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+   
+    align-items: center;
+   
+
+}
+.btn-one{
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: rgb(26, 245, 172);
+    font-weight: 400;
+    
+
+    
+}
+.btn-two{
+    margin-top: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: #daa520;
+    color: white;
+    font-weight: 400;
+    
+
+    
+}
+.last-section{
+    width: 50%;
+  
+    background-color: black;
+    
+    list-style: none;
+}
+.last-section p{
+    color: aliceblue;
+    padding: 40px 40px;
+    font-size: 16px;
+    background-color: black;
+}
+.last-section i{
+    color: white;
+    width: auto;
+    background-color: aliceblue;
+}
+.text-section h1{
+    color: rgb(122, 120, 120);
+
+    font-weight: 100;
+}
+.text-section b{
+    color: black;
+    font-weight: 800;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    width: 50%;
+}
+.first-img{
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    bottom: 30%;
+    right: 5%;
+    width: 250px;
+    height: 280px;
+   
+  
+}
+ .second-img{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    bottom: 15%;
+    right: 5%;
+    width: 250px;
+    height: 280px;
+    
+} 
+.end-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.last-section-two{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   padding: 10px 10px;
+}
+.last-section-two p{
+ color: gray;
+ font-size: 12px;
+}
+.last-section-two h1{
+    font-weight: 700px;
+}
+.last-section i{
+    width: 20px;
+    color: white;
+}
+.img-part{
+    width: 290px;
+    height: 410px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+    
+}
+.img-part-two{
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+.img-data{
+    width: 30%;
+}
+
+
+
+
+
+
+
+/* Repoosnive */
+
